@@ -14,11 +14,28 @@ header > div {
 header > h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 33px;
+    font-size: 20px;
     display: inline-block;
     position: absolute;
     top: 25px;
     right: 50px;
+}
+
+.hprinc {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: darkred;
+    font-weight: bold;
 }
 
 p {
@@ -34,6 +51,12 @@ main {
     margin: auto;
     padding: 10px;
 }
+main#mdeptos {
+    margin: 1% 25% 0% 25%;
+}
+main#mgabi {
+    margin: 5% 25% -10% 25%;
+}
 table {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -48,19 +71,45 @@ th, td {
     text-align: left;
     padding: 5px;
 }
+
 footer {
     background-color: rgb(255, 255, 255);
     color: #0FA0DC;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 7px;
-    font-weight: bold;
     margin: 10px -8px 0px -8px;
+    position: relative;
+    bottom: -38px;
 }
 footer > h1 {
+    font-size: 12px;
     text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 .bem {
     display: block;
+    border: 1px solid black;
     margin: 10px auto auto auto; 
 }
-
+footer#fdepartamentos {
+    background-color: rgb(255, 255, 255);
+    color: #0FA0DC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px -8px 0px -8px;
+    position: relative;
+    bottom: -10px;
+}
+footer#fgabi {
+    position: relative;
+    bottom: -167px;
+}
+.malmox {
+    margin: 20px 25% 0px 25%;
+}
+.falmox {
+    position: relative;
+    bottom: -430px;
+}
+.aalmox {
+    color: white;
+}
