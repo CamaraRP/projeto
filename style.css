@@ -1,33 +1,41 @@
 @charset "UTF-8";
-
 body {
     background-color: rgb(4, 5, 11);
+    margin: auto;
 }
 header {
-    margin: 0px;
     border-bottom: 2px solid white;
-    padding: 3px;
-}
-header > div {
-    display: inline-block;
+    height: 100px;
 }
 header > h1 {
+    margin-right: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
     font-size: 20px;
-    display: inline-block;
-    position: absolute;
-    top: 25px;
-    right: 50px;
+    color: white;
+    text-align: right;
+    position: relative;
+    top: -70px;
 }
-
-.hprinc {
-    font-family: Arial, Helvetica, sans-serif;
+main {
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+main > h1 {
     text-align: center;
-}
-
-li {
     font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    color: #0FA0DC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer > h1 {margin: auto;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 a {
     color: red;
@@ -38,25 +46,14 @@ a:hover {
     font-weight: bold;
 }
 
-p {
-    color: white;
+
+
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-hr {
-    color: white;
-    width: 100%;
-}
-main {
-    background-color: white;
-    margin: auto;
-    padding: 10px;
-}
-main#mdeptos {
-    margin: 1% 25% 0% 25%;
-}
-main#mgabi {
-    margin: 5% 25% -10% 25%;
-}
+
 table {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -72,44 +69,46 @@ th, td {
     padding: 5px;
 }
 
-footer {
-    background-color: rgb(255, 255, 255);
-    color: #0FA0DC;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px -8px 0px -8px;
+
+
+footer#fdepartamentos {
     position: relative;
-    bottom: -38px;
+    bottom: -40px;
 }
-footer > h1 {
-    font-size: 12px;
-    text-align: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
+
+
+
+  
+.mcategorias {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
 }
-.bem {
+
+
+
+
+.mbens {
+    padding: 10px;
+}
+.img_bem {
     display: block;
     border: 1px solid black;
     margin: 10px auto auto auto; 
 }
-footer#fdepartamentos {
-    background-color: rgb(255, 255, 255);
-    color: #0FA0DC;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px -8px 0px -8px;
+
+
+
+
+.fgabi {
     position: relative;
-    bottom: -10px;
+    bottom: -190px;
 }
-footer#fgabi {
+.falmox{
     position: relative;
-    bottom: -167px;
+    bottom: -486px;
 }
-.malmox {
-    margin: 20px 25% 0px 25%;
-}
-.falmox {
+.f2881 {
     position: relative;
-    bottom: -430px;
-}
-.aalmox {
-    color: white;
+    bottom: -70px;
 }
