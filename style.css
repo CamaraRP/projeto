@@ -8,7 +8,8 @@ header {
     height: 100px;
 }
 header > h1 {
-    margin-right: 40px;
+    margin: auto;
+    /*margin-right: 20px;*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
@@ -80,17 +81,17 @@ footer#fdepartamentos {
 
   
 .mcategorias {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 10px;
 }
-
-
-
-
 .mbens {
     padding: 10px;
 }
+
+
+
+
 .img_bem {
     display: block;
     border: 1px solid black;
