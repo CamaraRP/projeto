@@ -21,6 +21,7 @@ main {
     background-color: white;
     margin-top: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 main > h1 {
     text-align: center;
@@ -110,6 +111,10 @@ footer#fdepartamentos {
     position: relative;
     bottom: -486px;
 }
+.finf{
+    position: relative;
+    bottom: -358px;
+}
 .f2881 {
     position: relative;
     bottom: -70px;
@@ -118,7 +123,27 @@ footer#fdepartamentos {
 
 
 
-.fbem1897{
+/*.fbem1897{
+    position: relative;
+    bottom: -20px;
+}
+.fbem2539 {
+    position: relative;
+    bottom: -20px;
+}
+.fbem2580 {
+    position: relative;
+    bottom: -20px;
+}
+.fbem2837 {
+    position: relative;
+    bottom: -20px;
+}
+.fbem2860 {
+    position: relative;
+    bottom: -20px;
+}*/
+.fbem {
     position: relative;
     bottom: -20px;
 }
