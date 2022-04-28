@@ -123,27 +123,22 @@ footer#fdepartamentos {
 
 
 
-/*.fbem1897{
-    position: relative;
-    bottom: -20px;
-}
-.fbem2539 {
-    position: relative;
-    bottom: -20px;
-}
-.fbem2580 {
-    position: relative;
-    bottom: -20px;
-}
-.fbem2837 {
-    position: relative;
-    bottom: -20px;
-}
-.fbem2860 {
-    position: relative;
-    bottom: -20px;
-}*/
 .fbem {
     position: relative;
     bottom: -20px;
+}
+
+
+
+.dbem {
+    margin: auto;
+    width: fit-content;
+}
+.dbem > img#selo1897 {
+    display: none;
+}
+.dbem:hover > img#selo1897{
+    display: block;
+    margin: auto;
+    padding-top: 10px;
 }
