@@ -119,6 +119,10 @@ footer#fdepartamentos {
     position: relative;
     bottom: -70px;
 }
+.fjuri {
+    position: relative;
+    bottom: -468px;
+}
 
 
 
@@ -134,11 +138,11 @@ footer#fdepartamentos {
     margin: auto;
     width: fit-content;
 }
-.dbem > img#selo1897 {
+.dbem > .imgselo {
     display: none;
 }
-.dbem:hover > img#selo1897{
+.dbem:hover > .imgselo{
     display: block;
-    margin: auto;
-    padding-top: 10px;
+    margin: 10px auto auto auto;
+    border: 1px solid black;
 }
