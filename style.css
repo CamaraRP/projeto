@@ -75,7 +75,6 @@ ul {
 }
 .img_bem {
     display: block;
-    border: 1px solid black;
     margin: 10px auto auto auto; 
 }
 
@@ -92,7 +91,6 @@ ul {
 .dbem:hover > .imgselo{
     display: block;
     margin: 10px auto auto auto;
-    border: 1px solid black;
 }
 
 
